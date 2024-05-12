@@ -1,5 +1,10 @@
 import Link from "next/link";
+import { Dashboard } from "~/components/layouts/Dashboard";
 
 export default function HomePage() {
-  return <main className="min-h-screen"></main>;
+  return (
+    <Dashboard>
+      <div>Hello</div>
+    </Dashboard>
+  );
 }
